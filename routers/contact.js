@@ -2,8 +2,6 @@ const router = require('express').Router()
 const nodeMailer = require('nodemailer')
 require('dotenv').config()
 
-process.env.EMAIL_PASS
-
 router.post('/contact', ({ body }, res) => {
 
 

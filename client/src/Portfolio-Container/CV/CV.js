@@ -42,10 +42,11 @@ export default function CV(props) {
     }
 
     const cvBullets = [
-        { label: "Current Role", logo: "work-history.svg" },
-        { label: "Previous Roles", logo: "projects.svg" },
-        { label: "Key Languages", logo: "programming-skills.svg" },
-        { label: "Current Tech Obsessions", logo: "interests.svg" }
+        { label: "Current Role", logo: "current.svg" },
+        { label: "Previous Roles", logo: "previous-roles.svg" },
+        { label: "Key Languages", logo: "key-langs.svg" },
+        { label: "Current Tech Obsessions", logo: "tech.svg" },
+        { label: "Live Demos", logo: "demos.svg" }
     ]
 
     const programmingSkillDetails = [

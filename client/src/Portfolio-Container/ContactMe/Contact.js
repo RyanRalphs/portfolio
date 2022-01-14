@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import background from "./images/mailz.jpeg"
+import background from "./images/email.jpeg"
 import loading from "./images/load2.gif"
 import scrollService from "../../utils/scrollService";
 import ScreenHeading from "../../utils/ScreenHeading/ScreenHeading";
@@ -23,7 +23,7 @@ export default function Contact(props)
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
-    const [banner, setBanner] = useState("")
+    const [banner] = useState("")
     const [bool, setBool] = useState(false)
 
     const handleName = (event) => {
