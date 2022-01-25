@@ -89,7 +89,7 @@ export default function CV(props) {
             <CVHeading heading={"CityFibre"} subHeading={"QA Analyst"} fromDate={"Sept 2017"} toDate={"Aug 2018"} />
 
 
-            
+
         </div>,
         <div className="cv-screen-container programming-skills-container" key="programming-skills">
             {programmingSkillDetails.map((skill, index) => (
@@ -101,9 +101,18 @@ export default function CV(props) {
         </div>,
 
         <div className="cv-screen-container" key="interests">
-            <CVHeading heading="The Testing Pyramid" description="I love the idea of each technical member of a team being able to contribute to one recognised goal; to deliver quality. Tests matter!"/>
-            <CVHeading heading="Design Patterns" description="Since getting into JavaScript a lot more (especially on the back end), I have developed a very keen interest in design patterns and always have my head in a book when I get the chance!"/>
+            <CVHeading heading="The Testing Pyramid" description="I love the idea of each technical member of a team being able to contribute to one recognised goal; to deliver quality. Tests matter!" />
+            <CVHeading heading="Design Patterns" description="Since getting into JavaScript a lot more (especially on the back end), I have developed a very keen interest in design patterns and always have my head in a book when I get the chance!" />
             <CVHeading heading="Microservices" description="After being exposed to Microservices around 3 years ago, I fell in love with the fast paced, agile and scalable style of Microservices." />
+        </div>,
+
+        <div className="cv-screen-container" key="live-demos">
+             <CVHeading heading="Weather App" description="https://github.com/RyanRalphs/weather-app" />
+            <CVHeading heading="Task API" description="https://github.com/RyanRalphs/task-rest-api" />
+            <CVHeading heading="Notes CLI App" description="https://github.com/RyanRalphs/cli-notes-app" />
+
+
+
         </div>,
     ]
 

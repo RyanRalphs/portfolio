@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import ScreenHeading from '../../utils/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utils/scrollService'
 import animations from '../../utils/animations'
